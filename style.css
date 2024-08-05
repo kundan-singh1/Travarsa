@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Oswald,sans-serif,Saira;
+    box-sizing: border-box;
+}
+.whole_body{
+    background-color:rgba(255, 255, 255, 0.511);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}   
+.container{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid blue;
+}
+.navbar{
+    margin-right:40px;
+}
+.img{
+    margin: 30px 0px 20px 30px;
+    height: 80px;
+    width: 100px;
+    background-image: url(travarsa_logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px;
+}
+.navbar a:hover{
+    color: white;
+    background-color: blue;
+}
+.navbar span{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.navbar span:hover{
+    color: white;
+    background-color: blue;
+}
+#span1{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+#span1:hover{
+    color: white;
+    background-color: blue;  
+}
+.banner{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 250px;
+    background-image: url(tv.avif);
+}
+.holder{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(Travarsa-banners.jpg);
+}
+.para{
+    margin-top:20px;
+    margin-left: 50px;
+    height: 320px;
+    width: 500px;
+   border-top: 8px solid orange;
+   border-bottom: 8px solid orange;
+    padding: 5px;
+    line-height: 20px;
+}
+.banner_cont{
+    height: 500px;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.ban_img{
+    height: 500px;
+    width: 450px;
+    margin-left: 30px;
+    background-image: url(Travarsa-It-Services-and-Industrial-Internship.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ban_work{
+    height: 490px;
+    width: 320px;
+    background-color:darkorange;    
+    margin-top: 10px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color:#000000;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #000000;
+    font-size: 13px;
+    width: 70%;
+    position: relative;
+    left: 35px;
+    margin:30px 10px;
+    padding: 5px;
+    font-weight: 400;
+}
+.a{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35px;
+    margin:25px 10px;
+}
+.a a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.ban_work1{
+    background-color: #003A70;
+}
+.h2{
+    color: white;
+    cursor: pointer;
+}
+.p1{
+    color:white;
+}
+.a1 a{
+    color: white;
+}
+.ban_countt{
+    height: 580px;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.ban_work2{
+    height: 550px;
+    background-color: #dbd9d9;
+    width: 380px;
+}
+.ban_work2 button{
+    color: white;
+    background-color: #000000;
+    height: 50px;
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 18px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.ban_work2 button:hover{
+    color: black;
+    background-color: #fff;
+    font-weight: 550;
+}
+#button{
+    margin-top: 15px;
+}
+.ban_img1{
+    background-image: url(Web-designing-and-Digital-Marketing-Service-in-Kolkata.jpeg);
+    height: 550px;
+}
+.ban_work3{
+    background-color: transparent;
+}
+.nobod{
+    border: none;
+}
+.a6{
+    width: 70%;
+}
+.ban_countt1{
+    height: 600px;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.ban_countt1 button{
+    color: black;
+    background-color:white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 18px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.ban_countt1 button:hover{
+    color: white;
+    background-color: black;
+}
+.ban-img2{
+    height: 580px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(Cyber-Security-and-Software-Development.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 27px;
+}
+.ban{
+    background-color:darkorange;   
+    margin-right:25px;
+}
+.ban button{
+    margin-top: 33px;
+}
+.ban1{
+    background-color: #003A70;
+}
+.container1{
+    height: 650px;
+}
+.in_cont{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.it_holder{
+    height: 300px;
+    width: 300px;
+    background-color: #dbd9d9;
+    margin: 15px;
+}
+.it{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color:#000000;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.it_para{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #000000;
+    font-size: 13px;
+    width: 90%;
+    position: relative;
+    left: 20px;
+    margin:30px 0px 30px 0px;
+    padding: 5px;
+    font-weight: 400;
+}
+.it_button button{
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 18px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.it_button button:hover{
+    color: white;
+    background-color: black;
+}
+.it_button1 button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 18px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.it_button1 button:hover{
+    color: black;
+    background-color: white;
+}
+.it_button2 button{
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 23px;   
+    margin-left: 70px;
+    position: relative;
+    bottom: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.it_button2 button:hover{
+    color: white;
+    background-color: black;
+}
+.it_para1{
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 20px 10px;
+    line-height: 20px;
+}
+.it_para1 p{
+    font-size: 13px;
+    color: #000000;
+    font-weight: 200;
+}
+.main_foot{
+    height: 700px;
+    background-color: antiquewhite;
+    border-top:5px solid #FFBB18; 
+    margin-left:20px;
+    margin-right: 20px;
+    background-color: #444444;
+    box-sizing: border-box;
+}
+.foot_cont{
+    height: 450px;
+    background-color:transparent;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px ;
+}
+.foot_holder{
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.foot_holder h2{
+    font-size: 16px;
+    color: #FFBB18;
+    font-weight: 100;
+}
+.foot_holder p{
+    font-size: 12px;
+}
+.foot_a {
+    height: 350px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 12px;
+    color: #BBBBBB;
+    margin-top: 15px;
+}
+.foot_a a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #BBBBBB;
+    display: flex;
+    flex-direction:column;
+    padding: 5px 0px;
+}
+.rg{
+    margin-top:15px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.d_c{
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.p_b{
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;  
+}
+#rgh2{
+    color: #BBBBBB;
+    font-size: 12px;
+    font-weight: 550;
+}
+.main_footer{
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.578);
+    font-size: 10.8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
